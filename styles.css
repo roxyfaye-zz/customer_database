@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+.title {
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+.customers {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.customer {
+    
+    flex: 0 0 25%;
+    text-align: center;
+    
+
+}
+
+.names {
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.names span {
+    border-bottom: 1px solid #6CBA92;
+    padding: 2px;
+}
+
+.email {
+
+    color: #B0B0B0;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.location {
+
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+
+}
+
+.cell {
+
+  font-size: 10px;
+  color: gray;
+  text-decoration: line-through;
+
+}
+
+.Id {
+
+  font-size: 10px;
+  color: #6CBA92;
+  text-shadow: 0 0 5px #000;
+
+}
+
+
+
+
+
+
+
